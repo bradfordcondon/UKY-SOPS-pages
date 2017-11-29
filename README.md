@@ -1,4 +1,8 @@
+![SOPS logo](images/sops_logo.jpg)
+
 This repo is for the static pages of the [UKY SOPS](http://sops.as.uky.edu/) website.
+
+
 
 ## Instructions
 
@@ -11,8 +15,13 @@ The SOPs website is a Drupal website.  Log in at http://sops.as.uky.edu/user.  I
 
 The site consists of a menu,some static pages (Drupal content type: basic page), and the front page which displays articles.
 
+#### Menu
+
 The [menu](http://sops.as.uky.edu/?q=admin/structure/menu/manage/main-menu/edit&destination=node) along the top with links that go to static pages.  This repos stores those pages under version control so if they are accidentally deleted, they can be restored.
 
+Contact Us is an exception: it is a *Web form*.  If you want to edit whats displayed, you need to edit the *markup* element of the web form!
+
+#### Front page
 The front page is meant to display *Articles*.  Feel free to include these in the repo, but considering these are ephemeral events, I haven't included them.
 
 
